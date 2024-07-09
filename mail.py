@@ -27,7 +27,6 @@ apis = ["weather", "exchange_rates"]
 
 
 def main():
-    # checking if there are 2 command line arguments entered
     if len(sys.argv) != 3:
         print(
             'You have to enter 2 command line arguments: valid email adress and API name ("weather" or "exchange_rate")'
