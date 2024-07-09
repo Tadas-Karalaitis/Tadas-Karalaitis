@@ -47,7 +47,7 @@ def main():
         sub = "Latest currency exchange rates proudly presented by Tadas Karalaitis "
         content = exchange_rates()
     send_email(sub, content)
-    print('email successfully sent!')
+    print('email successfully sent!!!')
 
 
 # checking if command line arguments are valid
