@@ -25,9 +25,9 @@ load_dotenv()
 
 apis = ["weather", "exchange_rates"]
 
-# some random comment for git
+
 def main():
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 3:
         print(
             'You have to enter 2 command line arguments: valid email adress and API name ("weather" or "exchange_rate")'
         )
