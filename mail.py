@@ -20,7 +20,7 @@ import requests # to import APIs
 import json 
 
 
-load_dotenv() #all kinds of comments here just to test git branches
+load_dotenv()
 
 
 apis = ["weather", "exchange_rates"]
