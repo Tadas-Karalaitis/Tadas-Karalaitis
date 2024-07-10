@@ -20,11 +20,13 @@ import requests # to import APIs
 import json 
 
 
-load_dotenv()
+load_dotenv() 
 
 
 apis = ["weather", "exchange_rates"]
 
+
+# Some random text, just to test git stuff
 
 def main():
     if len(sys.argv) != 3:
