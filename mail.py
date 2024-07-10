@@ -16,7 +16,7 @@ import os # for reaching secure variables with sensitive information
 from dotenv import load_dotenv # for loading email adress and email password from hidden file .env
 import ssl # for secure connection
 import smtplib # for sending an email message
-import requests # to import APIs
+import requests # to export APIs
 import json 
 
 
