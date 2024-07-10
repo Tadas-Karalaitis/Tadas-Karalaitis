@@ -25,7 +25,7 @@ load_dotenv()
 
 apis = ["weather", "exchange_rates"]
 
-#check
+#check check check
 
 def main():
     if len(sys.argv) != 3:
